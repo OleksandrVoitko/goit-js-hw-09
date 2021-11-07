@@ -11,8 +11,6 @@ function onFormSubmit(event) {
   const amount = Number(formElements.amount.value);
 
   promiseGenerator (delay, step, amount);
-
-  formRef.reset();
 }
 
 function createPromise(position, delay) {
